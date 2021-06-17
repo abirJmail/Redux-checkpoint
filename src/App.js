@@ -1,19 +1,28 @@
-import React from 'react';
-import counterReducer from './JS/Reducers/counterReducer'
-import { createStore } from 'redux'
-import { Provider } from 'react-redux'
-import Counter from './Components/Counter'
+import "./App.css";
+import { useState } from "react";
+import AddTodo from "./Component/AddTodo/AddTodo";
+import FilterTodo from "./Component/FilterTodo/FilterTodo";
+import TodoList from "./Component/TodoList/TodoList";
 
-const store = createStore(counterReducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
-
- 
 function App() {
-   
-return (
-<Provider store={store}>
-<Counter />
-</Provider>
-);
-}
-export default App;
+  const [done, setDone] = useState(false);
+  const [unDone, setUndone] = useState(false);
 
+  console.log(done, unDone);
+
+  return (
+    <div className="App">
+      <div className="add">
+        <AddTodo  />
+      </div>
+      
+      
+        <FilterTodo setDone={setDone} setUndone={setUndone} />
+      
+
+      <TodoList done={done} unDone={unDone} />
+    </div>
+  );
+}
+
+export default App;

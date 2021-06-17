@@ -1,38 +1,12 @@
 .App {
-  text-align: center;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.add{
+  background-color: #18204b;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyOC45MicgaGVpZ2h0PScyOS4yNTgnIHZpZXdCb3g9JzAgMCAyOC45MiAyOS4yNTgnPiA8cGF0aCBpZD0nVHJhY8OpXzQxMjAnIGRhdGEtbmFtZT0nVHJhY8OpIDQxMjAnIGQ9J00zNTcuNDA2LDI5MC42ODZhMTQuNDksMTQuNDksMCwwLDEtOC44LDEzLjQyNiwxNC4xNzMsMTQuMTczLDAsMCwxLTUuNjc5LDEuMTQsMTMuOTExLDEzLjkxMSwwLDAsMS01LjYxNS0xLjE0LDE0LjU0OCwxNC41NDgsMCwwLDEtNC41ODEtMy4xMjQsMTQuOTE4LDE0LjkxOCwwLDAsMS0zLjEtNC42MjMsMTQuMTY0LDE0LjE2NCwwLDAsMS0xLjE0LTUuNjc4LDE0LjQzMywxNC40MzMsMCwwLDEsMS4xMTktNS42NTcsMTQuOTY3LDE0Ljk2NywwLDAsMSwzLjA2MS00LjY2NSwxNC42NDMsMTQuNjQzLDAsMCwxLDQuNTgxLTMuMTg4LDEzLjczOCwxMy43MzgsMCwwLDEsNS42NzgtMS4xODJoMTQuNDgxWm0tNi43NTUsMHYtNy45MzdoLTcuNzI2YTcuNTQ5LDcuNTQ5LDAsMCwwLTUuNDI1LDIuMyw4LjE4LDguMTgsMCwwLDAtMS42NDYsMi41MzMsNy45MTMsNy45MTMsMCwwLDAtLjYxMywzLjEsOC4wMTQsOC4wMTQsMCwwLDAsLjU5MSwzLjA4Miw3LjQ2NSw3LjQ2NSwwLDAsMCwxLjYyNSwyLjQ3LDcuNzk0LDcuNzk0LDAsMCwwLDIuNDQ5LDEuNjQ2LDcuOCw3LjgsMCwwLDAsNi4wNTgsMCw4LjEzLDguMTMsMCwwLDAsMi40NDgtMS42NDYsNy4zMTQsNy4zMTQsMCwwLDAsMS42NDctMi40Nyw4LjAxMSw4LjAxMSwwLDAsMCwuNTkxLTMuMDgyJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMzI4LjQ4NiAtMjc1Ljk5NCknIGZpbGw9JyNmZjY0NjQnLz4gPC9zdmc+);
+  background-repeat: no-repeat;
+  background-size: 8%;
+  background-position: 35% 10%;
+  box-shadow: 0 0 7px 0 rgb(0 0 0 / 6%);
 }
