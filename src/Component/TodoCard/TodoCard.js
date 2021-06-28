@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import EditTodo from "../EditTodo/EditTodo";
 import { completeTodo, deleteTodo } from "../JS/Actions/action";
 import "./todocard.css";
+import { Button} from 'react-bootstrap';
 
 const TodoCard = ({ todo }) => {
   const dispatch = useDispatch();
@@ -16,11 +17,9 @@ const TodoCard = ({ todo }) => {
       >
         {todo.text}
       </span>
-      <i
-        className="fas fa-trash-alt"
-        onClick={() => dispatch(deleteTodo(todo.id))}
-      ></i>
       <EditTodo todo={todo} />
+      <Button variant="danger" onClick={() => dispatch(deleteTodo(todo.id))}> X </Button>
+     
     </li>
   );
 };
